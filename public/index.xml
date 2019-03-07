@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>An Atypical Blog</title>
+    <link>https://atypical.ml/</link>
+    <description>Recent content on An Atypical Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://atypical.ml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://atypical.ml/posts/2019/03/first-post/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atypical.ml/posts/2019/03/first-post/</guid>
+      <description>Introduction Just marking the day I began working on this. Hopefully it lasts a long time.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://atypical.ml/about/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atypical.ml/about/</guid>
+      <description>Hey! I&amp;rsquo;m a high school student who is interested in a few subjects and decided to restart blogging after my last one went down a few years ago.
+I&amp;rsquo;ll be posting information about projects I&amp;rsquo;m working on whether in writing or code as well as my thoughts on current events, etc.
+Let me know if you have any comments and feel free to email me.</description>
+    </item>
+    
+  </channel>
+</rss>
