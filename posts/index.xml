@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on An Atypical Blog</title>
+        <title>Posts on An Atypically Meh Blog</title>
         <link>https://atypical.ml/posts/</link>
-        <description>Recent content in Posts on An Atypical Blog</description>
+        <description>Recent content in Posts on An Atypically Meh Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
