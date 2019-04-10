@@ -6,10 +6,21 @@
     <description>Recent content on An Atypically Meh Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://atypical.ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anki Redesign and Development - Part 1</title>
+      <link>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</guid>
+      <description>What is Anki? Anki itself is a flash card program that is meant to make memorization easier over a long period of time.
+It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.
+It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website: Anyone who needs to remember things in their daily life can benefit from Anki.</description>
+    </item>
     
     <item>
       <title>First Post</title>

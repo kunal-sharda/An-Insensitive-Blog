@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</loc>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atypical.ml/posts/2019/03/first-post/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
@@ -29,7 +34,7 @@
   
   <url>
     <loc>https://atypical.ml/</loc>
-    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -45,7 +50,7 @@
   
   <url>
     <loc>https://atypical.ml/posts/</loc>
-    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

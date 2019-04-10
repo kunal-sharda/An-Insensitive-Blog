@@ -6,8 +6,50 @@
         <description>Recent content in Posts on An Atypically Meh Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://atypical.ml/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Anki Redesign and Development - Part 1</title>
+            <link>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</link>
+            <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</guid>
+            <description>What is Anki? Anki itself is a flash card program that is meant to make memorization easier over a long period of time.
+It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.
+It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website: Anyone who needs to remember things in their daily life can benefit from Anki.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="what-is-anki">What is Anki?</h2>
+
+<p>Anki itself is a flash card program that is meant to make memorization easier over a long period of time.</p>
+
+<p>It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.</p>
+
+<p>It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website:
+  Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-agnostic and supports images, audio, videos and scientific markup (via LaTeX), the possibilities are endless.</p>
+
+<h2 id="why-isn-t-it-used-extensively">Why isn&rsquo;t it used extensively?</h2>
+
+<p>The ease of use and the overall user experience isn&rsquo;t the greatest. That is where Quizlet is far better. It is easier to use online, open to collaboration and allows for cramming.</p>
+
+<p>The interface for Anki itself is fairly clunky. When I started using the application, it took a bit for me to understand the structure and the usages of commands to create the cards. It&rsquo;s also very difficult to format and create multiple cards very easily.</p>
+
+<p>Aside from functionality issues, Anki faces issues with collaboration. Unlike Quizlet where many people can collaborate on one flash card deck, it is near impossible to do so efficiently on Anki. It isn&rsquo;t preferable to use something like Git or the existing solution, which overall hurts adoption.</p>
+
+<h2 id="what-is-your-project">What is your project?</h2>
+
+<p>I aim to increase and work on the collaboration portion through mediums such as Google Drive Sheets as Anki has integration with CSVs.</p>
+
+<p>That would make it alot easier to share decks and edit (perhaps even real-time in the future). I believe that such a feature would lead to greater adoption.</p>
+
+<p>Further, Anki&rsquo;s UIUX needs a redesign to follow this. From what I understand, the creation process and storage of decks is far more difficult than it needs to be, and honestly, the application needs an explanation for usage.</p>
+
+<p>For non-technicaly users, especially those that may be currently using Quizlet, the information available right now is probably not too intuitive (at least, that is how I also felt when I first started using Anki). As such, I aim to fix a few design problems I believe would make my usage easier. Hopefully, as I go through the design process and get feedback, I would get interesting feedback on new features, etc.</p>
+
+<p>Thanks for reading, and let me know if you have any questions or suggestions in the comments!</p>
+]]></content>
+        </item>
         
         <item>
             <title>First Post</title>
