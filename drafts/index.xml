@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on An Insensitive Blog</title>
+    <link>https://insensitive.co/drafts/</link>
+    <description>Recent content in Drafts on An Insensitive Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 11 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insensitive.co/drafts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>-Anki- Redesign and Development - Part 2</title>
+      <link>https://insensitive.co/drafts/anki2/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://insensitive.co/drafts/anki2/</guid>
+      <description> How has progress been? </description>
+    </item>
+    
+  </channel>
+</rss>

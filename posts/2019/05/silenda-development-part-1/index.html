@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:Kunal Sharda]">
+<meta name="description"
+    content="What is Silenda? At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&amp;rsquo;d like to release weekly updates on progress, even if it&amp;rsquo;s a simple: &amp;ldquo;no progress has been done this week&amp;rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&amp;rsquo;ll get back to you." />
+<meta name="keywords" content="Insensitive, Blog, Tech, etc." />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://insensitive.co/posts/2019/05/silenda-development-part-1/" />
+
+
+<title>
+    
+    Silenda Development - Part 1 :: An Insensitive Blog 
+    
+</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro" rel="stylesheet"
+    type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+<link rel="stylesheet" href="https://insensitive.co/scss/main.min.099699ab246bf26f50616f7c9f00c79d46110459d1bd727b2d07d6fc09ece082.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://insensitive.co/apple-touch-icon.png">
+<link rel='shortcut icon' href="favicon.ico" type="img/ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://insensitive.co/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://insensitive.co/favicon-16x16.png">
+<link rel="manifest" href="https://insensitive.co/site.webmanifest">
+<link rel="mask-icon" href="https://insensitive.co/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://insensitive.co/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="Silenda Development - Part 1">
+<meta itemprop="description" content="What is Silenda? At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&rsquo;d like to release weekly updates on progress, even if it&rsquo;s a simple: &ldquo;no progress has been done this week&rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&rsquo;ll get back to you.">
+
+
+<meta itemprop="datePublished" content="2019-05-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="836">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://insensitive.co"/>
+
+<meta name="twitter:title" content="Silenda Development - Part 1"/>
+<meta name="twitter:description" content="What is Silenda? At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&rsquo;d like to release weekly updates on progress, even if it&rsquo;s a simple: &ldquo;no progress has been done this week&rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&rsquo;ll get back to you."/>
+
+
+
+
+<meta property="article:published_time" content="2019-05-28 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://insensitive.co/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://insensitive.co/about/">About</a></li><li><a href="https://insensitive.co/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://insensitive.co/posts/2019/05/silenda-development-part-1/">Silenda Development - Part 1</a></h2>
+
+            
+
+            <div class="post-content">
+                
+
+<h2 id="what-is-silenda">What is Silenda?</h2>
+
+<p>At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&rsquo;d like to release weekly updates on progress, even if it&rsquo;s a simple: &ldquo;no progress has been done this week&rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&rsquo;ll get back to you.</p>
+
+<p>Initially, to do this, I was trying to use the Oasis Labs game development kit (which has data anonymized), but found it quite difficult to use due to a relative lack of documentation and integration with other games. Given time, I am assuming that the game kit will improve, but it probably isn&rsquo;t going to be fully featured in the scope of this project.</p>
+
+<p>In Latin, Silenda means silent, which is how I&rsquo;d like the transactions to be, having no way to cheat in the game, but maintaining speed and efficiency of transactions.</p>
+
+<h2 id="why-a-card-game-builder">Why a card game builder?</h2>
+
+<p>Currently, there are only a few projects out there the focus on board game building, and more specifically, card game building. One of the supergiants of this genre is Tabletop Simulator.</p>
+
+<p>However, from my own experiences and of those that I have talked to, the overall control of the game pieces is somewhat terrible, especially for card games.</p>
+
+<p>Further, there really is no good card game builder out there that works on the web nor has a dedicated way to easily create games (including custom functions). I&rsquo;d say that even Tabletop simulator is somewhat lacking in this sense, although it does have many usable features overall.</p>
+
+<p>As such, and because I play a ton of card games, I thought it&rsquo;d be a good idea to create a card game builder. I believe that there was one prominent one that had came out earlier called Dulst, but I haven&rsquo;t seen any updates from them nor do I understand how it works, though I hope to see more from it if restarted.</p>
+
+<p>I would say that one that is possible to use on all platforms, perhaps through a simple website or on an app, would be very useful for when cards aren&rsquo;t available or if one wants to play without worrying about managing the game. i.e for games like Mafia, there may need to be a &ldquo;god&rdquo; who oftentimes is the first person who gets out as it isn&rsquo;t a very interesting or fun job for most people.</p>
+
+<p>If that can be handled automatically, then it would be much easier for everyone to play.</p>
+
+<h2 id="so-how-are-you-planning-to-make-it">So how are you planning to make it?</h2>
+
+<p>I&rsquo;ve wanted to do another project in Kotlin for a while, especially for fun. However, I haven&rsquo;t had much of a chance to do so unfortunately, and have just used it for other work.</p>
+
+<p>As such, it&rsquo;d be interesting to implement this in Kotlin, which also has an amazing collections library and is built on the JVM. However, there will probably be some issues with building a decent GUI. Not sure what to use for that yet, but will update on it.</p>
+
+<p>It is likely also going to be a Webapp that can run on Android, as an App or on a website for the final product. I don&rsquo;t know about IPhones, but if anyone has experience in that, feel free to point me to anything useful that I can learn.</p>
+
+<p>It will probably also be open source so that anyone could help contribute and roast me if I make any errors. I have started to plan it out in a document that I will keep internally for now and will push out some blog posts explaining my rationale, etc. as I go through it.</p>
+
+<h2 id="what-will-be-some-features">What will be some features?</h2>
+
+<p>Silenda will truly be a generic card game builder, with some core placements or movements that can be used to create new games or, eventually, I hope to implement Rhai, a Turing-complete embedded scirpting language for more advanced users to build more difficult movements. I will release more information on what the generic card actions are and hwo I envision them being used (i.e for a game like Coup or War).</p>
+
+<p>Initially, I have been working with a standard 52 card deck with jokers, but I hope to make this a platform where custom art can be uploaded and used to create custom cards. The games that I&rsquo;m building as a demo for the platform are probably going to be War, which is a relatively simple implementation, and Coup, which is a relatively complex game. Those should be coming out by perhaps mid to late July into early August with the current timeframe.</p>
+
+<p>Anyways, there will be another post next week about my progress and it&rsquo;ll become fairly routine after a while. Let me know in the comments if there are any questions or additional feedback that you may have.</p>
+
+<p>See ya next week!</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>836 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-27 20:00 -0400</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/">
+                                <span class="button__text">Anki Redesign and Development - Part 1</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+          <div id="comments" class="thin"><div id="commento"></div>
+<script src="https://commento.potatofrom.space/js/commento.js"></script></div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+                <span>RektInPieces</span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://insensitive.co/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+
+<script type="text/javascript" src="https://insensitive.co/js/bundle.f78be3bb479a8ae2cfb6a4f753bc0749f76958dc3d7b1b36fc5dfc065ec93a5c.js" integrity=""></script>
+
+
+
+    </body>
+</html>

@@ -1,20 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on An Atypically Meh Blog</title>
-        <link>https://atypical.ml/posts/</link>
-        <description>Recent content in Posts on An Atypically Meh Blog</description>
+        <title>Posts on An Insensitive Blog</title>
+        <link>https://insensitive.co/posts/</link>
+        <description>Recent content in Posts on An Insensitive Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://atypical.ml/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://insensitive.co/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Silenda Development - Part 1</title>
+            <link>https://insensitive.co/posts/2019/05/silenda-development-part-1/</link>
+            <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://insensitive.co/posts/2019/05/silenda-development-part-1/</guid>
+            <description>What is Silenda? At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&amp;rsquo;d like to release weekly updates on progress, even if it&amp;rsquo;s a simple: &amp;ldquo;no progress has been done this week&amp;rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&amp;rsquo;ll get back to you.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="what-is-silenda">What is Silenda?</h2>
+
+<p>At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&rsquo;d like to release weekly updates on progress, even if it&rsquo;s a simple: &ldquo;no progress has been done this week&rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&rsquo;ll get back to you.</p>
+
+<p>Initially, to do this, I was trying to use the Oasis Labs game development kit (which has data anonymized), but found it quite difficult to use due to a relative lack of documentation and integration with other games. Given time, I am assuming that the game kit will improve, but it probably isn&rsquo;t going to be fully featured in the scope of this project.</p>
+
+<p>In Latin, Silenda means silent, which is how I&rsquo;d like the transactions to be, having no way to cheat in the game, but maintaining speed and efficiency of transactions.</p>
+
+<h2 id="why-a-card-game-builder">Why a card game builder?</h2>
+
+<p>Currently, there are only a few projects out there the focus on board game building, and more specifically, card game building. One of the supergiants of this genre is Tabletop Simulator.</p>
+
+<p>However, from my own experiences and of those that I have talked to, the overall control of the game pieces is somewhat terrible, especially for card games.</p>
+
+<p>Further, there really is no good card game builder out there that works on the web nor has a dedicated way to easily create games (including custom functions). I&rsquo;d say that even Tabletop simulator is somewhat lacking in this sense, although it does have many usable features overall.</p>
+
+<p>As such, and because I play a ton of card games, I thought it&rsquo;d be a good idea to create a card game builder. I believe that there was one prominent one that had came out earlier called Dulst, but I haven&rsquo;t seen any updates from them nor do I understand how it works, though I hope to see more from it if restarted.</p>
+
+<p>I would say that one that is possible to use on all platforms, perhaps through a simple website or on an app, would be very useful for when cards aren&rsquo;t available or if one wants to play without worrying about managing the game. i.e for games like Mafia, there may need to be a &ldquo;god&rdquo; who oftentimes is the first person who gets out as it isn&rsquo;t a very interesting or fun job for most people.</p>
+
+<p>If that can be handled automatically, then it would be much easier for everyone to play.</p>
+
+<h2 id="so-how-are-you-planning-to-make-it">So how are you planning to make it?</h2>
+
+<p>I&rsquo;ve wanted to do another project in Kotlin for a while, especially for fun. However, I haven&rsquo;t had much of a chance to do so unfortunately, and have just used it for other work.</p>
+
+<p>As such, it&rsquo;d be interesting to implement this in Kotlin, which also has an amazing collections library and is built on the JVM. However, there will probably be some issues with building a decent GUI. Not sure what to use for that yet, but will update on it.</p>
+
+<p>It is likely also going to be a Webapp that can run on Android, as an App or on a website for the final product. I don&rsquo;t know about IPhones, but if anyone has experience in that, feel free to point me to anything useful that I can learn.</p>
+
+<p>It will probably also be open source so that anyone could help contribute and roast me if I make any errors. I have started to plan it out in a document that I will keep internally for now and will push out some blog posts explaining my rationale, etc. as I go through it.</p>
+
+<h2 id="what-will-be-some-features">What will be some features?</h2>
+
+<p>Silenda will truly be a generic card game builder, with some core placements or movements that can be used to create new games or, eventually, I hope to implement Rhai, a Turing-complete embedded scirpting language for more advanced users to build more difficult movements. I will release more information on what the generic card actions are and hwo I envision them being used (i.e for a game like Coup or War).</p>
+
+<p>Initially, I have been working with a standard 52 card deck with jokers, but I hope to make this a platform where custom art can be uploaded and used to create custom cards. The games that I&rsquo;m building as a demo for the platform are probably going to be War, which is a relatively simple implementation, and Coup, which is a relatively complex game. Those should be coming out by perhaps mid to late July into early August with the current timeframe.</p>
+
+<p>Anyways, there will be another post next week about my progress and it&rsquo;ll become fairly routine after a while. Let me know in the comments if there are any questions or additional feedback that you may have.</p>
+
+<p>See ya next week!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Anki Redesign and Development - Part 1</title>
-            <link>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</link>
+            <link>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</link>
             <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</guid>
+            <guid>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</guid>
             <description>What is Anki? Anki itself is a flash card program that is meant to make memorization easier over a long period of time.
 It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.
 It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website:</description>
@@ -55,10 +108,10 @@ Since it is content-agnostic and supports images, audio, videos and scientific m
         
         <item>
             <title>First Post</title>
-            <link>https://atypical.ml/posts/2019/03/first-post/</link>
+            <link>https://insensitive.co/posts/2019/03/first-post/</link>
             <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://atypical.ml/posts/2019/03/first-post/</guid>
+            <guid>https://insensitive.co/posts/2019/03/first-post/</guid>
             <description>Introduction Just marking the day I began working on this. Hopefully it lasts a long time.</description>
             <content type="html"><![CDATA[
 

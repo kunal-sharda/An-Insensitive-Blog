@@ -3,69 +3,85 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atypical.ml/posts/2019/03/anki-redesign-and-development-part-1/</loc>
+    <loc>https://insensitive.co/posts/2019/05/silenda-development-part-1/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/drafts/anki2/</loc>
+    <lastmod>2019-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atypical.ml/posts/2019/03/first-post/</loc>
+    <loc>https://insensitive.co/posts/2019/03/first-post/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atypical.ml/about/</loc>
+    <loc>https://insensitive.co/about/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atypical.ml/</loc>
+    <loc>https://insensitive.co/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://atypical.ml/fr/"
+                href="https://insensitive.co/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://atypical.ml/"
+                href="https://insensitive.co/"
                 />
   </url>
   
   <url>
-    <loc>https://atypical.ml/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <loc>https://insensitive.co/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://atypical.ml/fr/"
+                href="https://insensitive.co/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://atypical.ml/"
+                href="https://insensitive.co/"
                 />
   </url>
   
   <url>
-    <loc>https://atypical.ml/posts/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+    <loc>https://insensitive.co/drafts/</loc>
+    <lastmod>2019-05-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://atypical.ml/tags/</loc>
+    <loc>https://insensitive.co/posts/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://atypical.ml/fr/tags/"
+                href="https://insensitive.co/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://atypical.ml/tags/"
+                href="https://insensitive.co/tags/"
                 />
   </url>
   
