@@ -17,7 +17,8 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://insensitive.co/posts/2019/05/silenda-development-part-1/</guid>
-      <description>What is Silenda? At its core, I am trying to create a simple, yet modular custom card game builder with data integrity being a huge part of it. And while I do this, I&amp;rsquo;d like to release weekly updates on progress, even if it&amp;rsquo;s a simple: &amp;ldquo;no progress has been done this week&amp;rdquo;. Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&amp;rsquo;ll get back to you.</description>
+      <description>What is Silenda? When we thought about games to implement, we initially were stumped. However, we then realized: why not let the user implement any game?
+Thus, Silenda was born: a generic card game building platform. At its core, I am trying to create a simple, yet modular custom card game builder with data integrity and speed being a large part of its design. While I do this, I&amp;rsquo;d like to release weekly updates on progress, even if it&amp;rsquo;s a simple: &amp;ldquo;no progress has been done this week.</description>
     </item>
     
     <item>
