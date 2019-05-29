@@ -15,13 +15,12 @@
             <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
             
             <guid>https://insensitive.co/posts/2019/05/silenda-development-part-1/</guid>
-            <description>What is Silenda? When we thought about games to implement, we initially were stumped. However, we then realized: why not let the user implement any game?
-Thus, Silenda was born: a generic card game building platform. At its core, I am trying to create a simple, yet modular custom card game builder with data integrity and speed being a large part of its design. While I do this, I&amp;rsquo;d like to release weekly updates on progress, even if it&amp;rsquo;s a simple: &amp;ldquo;no progress has been done this week.</description>
+            <description>What is Silenda? When I was initially thinking about a new project to start building for fun aside from the work that I do or the projects I have already started, I was a bit stumped on how to proceed. I saw a ton of idea generators and other such things, but ultimately doubled down on something I could use myself. My friends and I play a ton of card games as I&amp;rsquo;m sure many of those reading right now do.</description>
             <content type="html"><![CDATA[
 
 <h2 id="what-is-silenda">What is Silenda?</h2>
 
-<p>When we thought about games to implement, we initially were stumped. However, we then realized: why not let the user implement any game?</p>
+<p>When I was initially thinking about a new project to start building for fun aside from the work that I do or the projects I have already started, I was a bit stumped on how to proceed. I saw a ton of idea generators and other such things, but ultimately doubled down on something I could use myself. My friends and I play a ton of card games as I&rsquo;m sure many of those reading right now do. Instead of trying to create a project with set instructions, why not let the people implement any game that involved cards of some sort?</p>
 
 <p>Thus, Silenda was born: a generic card game building platform. At its core, I am trying to create a simple, yet modular custom card game builder with data integrity and speed being a large part of its design. While I do this, I&rsquo;d like to release weekly updates on progress, even if it&rsquo;s a simple: &ldquo;no progress has been done this week.&rdquo; Of course, if anyone is interested in such a project, feel free to contact me at my email on the homepage or leave a comment and I&rsquo;ll get back to you.</p>
 
