@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>An Insensitive Blog</title>
-    <link>https://insensitive.co/</link>
-    <description>Recent content on An Insensitive Blog</description>
+    <title>Java on An Insensitive Blog</title>
+    <link>https://insensitive.co/tags/java/</link>
+    <description>Recent content in Java on An Insensitive Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://insensitive.co/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insensitive.co/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -44,15 +44,6 @@ I saw a ton of idea generators and other such things, but ultimately doubled dow
     </item>
     
     <item>
-      <title>-Anki- Redesign and Development - Part 2</title>
-      <link>https://insensitive.co/drafts/anki2/</link>
-      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://insensitive.co/drafts/anki2/</guid>
-      <description> How has progress been? </description>
-    </item>
-    
-    <item>
       <title>Knoweth - Part 1</title>
       <link>https://insensitive.co/posts/2019/03/knoweth-part-1/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
@@ -61,27 +52,6 @@ I saw a ton of idea generators and other such things, but ultimately doubled dow
       <description>What is Anki? Anki itself is a flash card program that is meant to make memorization easier over a long period of time.
 It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.
 It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website:</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://insensitive.co/posts/2019/03/first-post/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://insensitive.co/posts/2019/03/first-post/</guid>
-      <description>Introduction Just marking the day I began working on this. Hopefully it lasts a long time.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://insensitive.co/about/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://insensitive.co/about/</guid>
-      <description>Hey there! I am a student who is interested in a few subjects, including technology, coding, writing and politics, and as such decided to restart blogging after my last one went down a few years ago.
-I&amp;rsquo;ll be posting information about projects I&amp;rsquo;m working on and my opinions on current events if that interests anybody
-Overall, this is worked on randomly and for enjoyment, so updates may be infrequent.
-Let me know if you have any comments and feel free to email me.</description>
     </item>
     
   </channel>

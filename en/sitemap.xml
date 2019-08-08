@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://insensitive.co/posts/2019/08/knoweth-part-2/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/posts/2019/08/silenda-development-part-2/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://insensitive.co/posts/2019/05/silenda-development-part-1/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
@@ -13,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</loc>
+    <loc>https://insensitive.co/posts/2019/03/knoweth-part-1/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,7 +54,7 @@
   
   <url>
     <loc>https://insensitive.co/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -59,19 +69,44 @@
   </url>
   
   <url>
+    <loc>https://insensitive.co/tags/dev/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://insensitive.co/drafts/</loc>
     <lastmod>2019-05-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://insensitive.co/tags/java/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/tags/knoweth/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://insensitive.co/posts/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://insensitive.co/tags/silenda/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://insensitive.co/tags/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

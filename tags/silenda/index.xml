@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silenda on An Insensitive Blog</title>
+    <link>https://insensitive.co/tags/silenda/</link>
+    <description>Recent content in Silenda on An Insensitive Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insensitive.co/tags/silenda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Silenda Development - Part 2</title>
+      <link>https://insensitive.co/posts/2019/08/silenda-development-part-2/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://insensitive.co/posts/2019/08/silenda-development-part-2/</guid>
+      <description>How has progress been? Unfortunately, due to being fairly busy with my company, Scintillating, I have not had as much time to work on this project.
+However, I have been working on it with my spare time - I will soon reach out to more people/the community to see if anyone is truly interested before delving deeper into graphics development.
+Creating the actual functionality in Java is not too terribly difficult, and I have made good progress.</description>
+    </item>
+    
+    <item>
+      <title>Silenda Development - Part 1</title>
+      <link>https://insensitive.co/posts/2019/05/silenda-development-part-1/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://insensitive.co/posts/2019/05/silenda-development-part-1/</guid>
+      <description>What is Silenda? When I was initially thinking about a new project to build for fun, which would be a welcome break from the work that I do and the other projects that I have already started, I was a bit stumped on how to proceed.
+I saw a ton of idea generators and other such things, but ultimately doubled down on something I could use myself. My friends and I play a ton of card games as I&amp;rsquo;m sure many of those reading right now do.</description>
+    </item>
+    
+  </channel>
+</rss>

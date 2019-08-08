@@ -6,8 +6,80 @@
         <description>Recent content in Posts on An Insensitive Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://insensitive.co/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Knoweth - Part 2</title>
+            <link>https://insensitive.co/posts/2019/08/knoweth-part-2/</link>
+            <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://insensitive.co/posts/2019/08/knoweth-part-2/</guid>
+            <description>Two posts in one day!?!? Yeah, I know.
+New name? Yeah, we came up with a name for the project we are working (by we, I mean with my friend at his blog.
+It&amp;rsquo;s a play on the words &amp;ldquo;Knowledge&amp;rdquo; and &amp;ldquo;Everything&amp;rdquo; or &amp;ldquo;Know Everything,&amp;rdquo; which eventually translates to &amp;ldquo;Knoweth&amp;rdquo;. The application enables someone to easily, and in a scheduled manner, be able to memorize large pieces of information for a continued time period.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="two-posts-in-one-day">Two posts in one day!?!?</h2>
+
+<p>Yeah, I know.</p>
+
+<h2 id="new-name">New name?</h2>
+
+<p>Yeah, we came up with a name for the project we are working (by we, I mean with my friend at <a href="https://potatofrom.space" target="_blank">his blog</a>.</p>
+
+<p>It&rsquo;s a play on the words &ldquo;Knowledge&rdquo; and &ldquo;Everything&rdquo; or &ldquo;Know Everything,&rdquo; which eventually translates to &ldquo;Knoweth&rdquo;. The application enables someone to easily, and in a scheduled manner, be able to memorize large pieces of information for a continued time period.</p>
+
+<p>To build the application, we are using TeaVM, and overview of how it&rsquo;s implemented can be found <a href="https://potatofrom.space/post/knoweth-teavm-first-look/" target="_blank">here</a>.</p>
+
+<p>I have a bit more to add, but I&rsquo;d like to release a huge mega-dump of development updates, which will probably end up being published sometime next week.</p>
+
+<p>As always, let me know if there are any questions, and I&rsquo;ll be back next week!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Silenda Development - Part 2</title>
+            <link>https://insensitive.co/posts/2019/08/silenda-development-part-2/</link>
+            <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://insensitive.co/posts/2019/08/silenda-development-part-2/</guid>
+            <description>How has progress been? Unfortunately, due to being fairly busy with my company, Scintillating, I have not had as much time to work on this project.
+However, I have been working on it with my spare time - I will soon reach out to more people/the community to see if anyone is truly interested before delving deeper into graphics development.
+Creating the actual functionality in Java is not too terribly difficult, and I have made good progress.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="how-has-progress-been">How has progress been?</h2>
+
+<p>Unfortunately, due to being fairly busy with my company, <a href="https://scintillating.us" target="_blank">Scintillating</a>, I have not had as much time to work on this project.</p>
+
+<p>However, I have been working on it with my spare time - I will soon reach out to more people/the community to see if anyone is truly interested before delving deeper into graphics development.</p>
+
+<p>Creating the actual functionality in Java is not too terribly difficult, and I have made good progress. However, I am trying to make it as modular as possible, and as such, iterations over my current design may happen over time.</p>
+
+<p>I am mostly creating a generic card, generic token, and generic moves, which are than used in different cards, tokens, and games that can be used and played. The full release of the archictecture diagram will be in next week&rsquo;s entry. Java does handle game state fairly well, and I have not had any problems for as simple an engine as this.</p>
+
+<p>On the flip side, I am using libGDX or more specifically, mini2Dx (a 2D spin off of libGDX, with more specific graphical design for 2D games). So far, the experience has been decent, but there appears to be no great mini2DX tutorial, and even the libGDX tutorials seem a bit low quality (at least the ones that I have been able to access). This isn&rsquo;t a major hindrance, as the documentation is fairly extensive, but I plan to write about how to use mini2DX through my own experience with it.</p>
+
+<p>As I continue to do work and gain a better understanding of how it works, I will start including the tutorial in my future blog posts.</p>
+
+<h2 id="where-to-from-here">Where to from here?</h2>
+
+<p>For next week, I will likely have the complete architecture finalized and have finished most of the &ldquo;engine&rdquo; part of the game. However, I will continue to post updates even if this goal is not met, which I unfortunately slacked off on a bit in the past few weeks.</p>
+
+<p>Perhaps I should do some more outreach to see if there&rsquo;s anyone who is interested, which is likely why I&rsquo;ll post it sometime on a GameDev forum or the other.</p>
+
+<p>I have also been working on a different project to deal with flashcards and music, so that will come up soon.</p>
+
+<h2 id="questions-for-the-readers">Questions for the readers?</h2>
+
+<p>Initially, I was going to go with Coup and War for the PoC games, but I was looking for recommendations - I want to support overall custom card development and file upload, but I wanted more feedback on if that&rsquo;d be helpful.</p>
+
+<p>Of course, as always, any feedback or ideas would be great to send my way.</p>
+
+<p>See ya next week!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Silenda Development - Part 1</title>
@@ -70,11 +142,11 @@ I saw a ton of idea generators and other such things, but ultimately doubled dow
         </item>
         
         <item>
-            <title>Anki Redesign and Development - Part 1</title>
-            <link>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</link>
+            <title>Knoweth - Part 1</title>
+            <link>https://insensitive.co/posts/2019/03/knoweth-part-1/</link>
             <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://insensitive.co/posts/2019/03/anki-redesign-and-development-part-1/</guid>
+            <guid>https://insensitive.co/posts/2019/03/knoweth-part-1/</guid>
             <description>What is Anki? Anki itself is a flash card program that is meant to make memorization easier over a long period of time.
 It is said to be especially helpful when studying terms for medical school or in learning different languages, but can be beneficial in all sorts of subjects.
 It has an algorithm which allows users to efficiently study certain tasks over a large period of time. From its website:</description>
